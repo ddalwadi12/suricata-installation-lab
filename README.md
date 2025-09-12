@@ -27,3 +27,6 @@ This lab focuses on installing and configuring Suricata, an open-source network 
 # Prerequisites
 1. Ubuntu Machine
 2. Access to Internet
+
+# Steps
+
