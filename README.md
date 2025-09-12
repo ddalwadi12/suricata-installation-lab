@@ -29,4 +29,13 @@ This lab focuses on installing and configuring Suricata, an open-source network 
 2. Access to Internet
 
 # Steps
+```
+sudo apt update -y
+```
+```
+sudo apt upgrade -y
+```
+```
+sudo apt install build-essential curl dkms dnsutils tree vim vim-gtk3 -y
+```
 
