@@ -86,3 +86,20 @@ This turns the feature on, as shown in Figure 2.
 
 <br>![](2.png)
 <br><br>
+
+## Save and close the configuration file
+
+After making your changes, save and close the /etc/suricata/suricata.yaml file.
+If you are using nano, press CTRL + X, then Y, and finally ENTER to confirm and exit.
+
+## Choosing the correct network interface
+
+Suricata needs to know which network interface it should monitor for traffic.
+By default, the Suricata configuration is set to monitor an interface named eth0. However, many systems use different interface names (such as ens33, eth1, or others).
+
+If your system uses a different interface, or if you want Suricata to monitor traffic on multiple interfaces, you must update this setting in the configuration file so Suricata listens on the correct interface(s).
+
+If you need to add multiple interfaces, add a new interface below the af-packet as mentioned in Figure 3.
+
+<br>![](3.png)
+<br><br>
