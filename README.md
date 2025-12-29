@@ -101,5 +101,13 @@ If your system uses a different interface, or if you want Suricata to monitor tr
 
 If you need to add multiple interfaces, add a new interface below the af-packet as mentioned in Figure 3.
 
-<br>![](3.png)
+![](3.png)
+<br><br>
+
+Normally, you would have to stop and start Suricata again for rule changes to take effect. With live rule reloading, Suricata picks up rule changes instantly, saving time and avoiding downtime.
+
+Instruction (simplified):
+To turn on this feature, open the Suricata configuration file, scroll to the bottom, and add the following lines as mentioned in Figure 4.
+
+![](4.png)
 <br><br>
