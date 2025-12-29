@@ -28,7 +28,7 @@ This lab focuses on installing and configuring Suricata, an open-source network 
 1. Ubuntu Machine
 2. Access to Internet
 
-# Steps
+# Initial Setup
 ```
 sudo apt update -y
 ```
@@ -38,4 +38,11 @@ sudo apt upgrade -y
 ```
 sudo apt install build-essential curl dkms dnsutils tree vim vim-gtk3 -y
 ```
+# Step 1
+To begin installing Suricata, first add the Open Information Security Foundation (OISF) software repository to your Ubuntu system.
+```
+sudo add-apt-repository ppa:oisf/suricata-stable
+```
 
+![](1.png)
+As shown in Figure 1, press **ENTER** when prompted to confirm the addition of the repository. After the repository is added, the system automatically updates the list of available packages.
